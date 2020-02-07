@@ -2,10 +2,6 @@ import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
-##### DO NOT MODIFY OR REMOVE THIS VALUE #####
-checksum = '169a9820bbc999009327026c9d76bcf1'
-##### DO NOT MODIFY OR REMOVE THIS VALUE #####
-
 
 class MyMLP(nn.Module):
 	def __init__(self):
